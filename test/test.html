@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Purchase Order</title>
+  </head>
+  <body>
+  <p id= "confirm"> Add items to cart </p>
+  <cart id="cart">
+  	<ol>
+  	</ol>
+  </cart>
+
+<form>
+  <input list="browsers">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <button  type='button' id="add" onclick="myFunction()">+</button>
+  <button  type='button' id="add" onclick="myFunction2()">-</button>
+  <br>
+  <button  type='button' id="submit">buy</button>
+</form>
+
+<input type="button" onclick="printDiv('cart')" value="print a div!" />
+
+  <script src= "js.js"></script>
+  </body>
+</html>
+
